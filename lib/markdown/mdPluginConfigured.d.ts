@@ -6,13 +6,6 @@ export declare const mdPluginMathJax: (options: any) => (md: any) => void;
  * configured custom tag plugin
  */
 export declare const mdPluginText: () => (md: any) => void;
-export declare const mdPluginHighlightCode: {
-    (md: any, opts: any): void;
-    defaults: {
-        auto: boolean;
-        code: boolean;
-    };
-};
 export declare const mdPluginTOC: (md: any, opts: any) => void;
 export declare const mdPluginAnchor: {
     (md: any, opts: any): void;

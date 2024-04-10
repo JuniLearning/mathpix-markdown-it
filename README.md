@@ -1,3 +1,8 @@
+# Customizations for Juni
+- removed mdPluginChemistry used for enabling chemical graphs with SMILES (due to version conflicts with domino dependency)
+- removed ascii math output option (possibly also due to version conflicts? or for size reduction?)
+- removed mdPluginHighlightCode used for enabling code highlighting (size reduction due to importing large highlight.js library)
+
 # mathpix-markdown-it
 
 [![npm version](https://badge.fury.io/js/mathpix-markdown-it.svg)](https://badge.fury.io/js/mathpix-markdown-it)
